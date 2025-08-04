@@ -1,12 +1,4 @@
-# Ignore node modules
-node_modules/
-
-# Ignore environment variables
-.env
-
-# Ignore log files
-*.log
-
-# Ignore system files (optional)
-.DS_Store
-Thumbs.db
+# ignore envs everywhere
+**/.env
+# ignore all node_modules folders
+**/node_modules/
